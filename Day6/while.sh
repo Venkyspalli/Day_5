@@ -4,7 +4,7 @@ count=1
 while [ $count != 3 ]
 
 do
-	echo &count
+	echo $count
         ((count++))
 
 done
