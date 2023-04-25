@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 count=1
-while [ $count != 3 ]
+while [ $count != 10 ]
 
 do
 	echo $count

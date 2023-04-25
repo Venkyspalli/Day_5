@@ -1,8 +1,9 @@
 #!/bin/bash -x
-
-for (( Count=1; Count<=5; Count++ ))
+count=$count
+for (( Count=1; count<=5; Count++; ))
 
 do
-	echo -n "$count"
+	echo "$count"
+	echo "$count"
 done
 

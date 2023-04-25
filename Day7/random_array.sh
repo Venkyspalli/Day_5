@@ -1,5 +1,7 @@
+
 count=0;
 for (( i=1; i<=3; i++))
-	random=(RANDOM%10)
+   do
+    random=$((RANDOM%10));
 
-echo ${random[@]}
+echo $((1 + RANDOM % 10))
